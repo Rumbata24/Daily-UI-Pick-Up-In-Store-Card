@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: #172039;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5f6ff;
+}
+
+.blue-shadow {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  box-shadow: -60px -60px 0px 0px #4471f5;
+  border-radius: 30px;
+}
+
+.wrapper {
+  box-shadow: 0 4px 65px 0 rgba(84, 96, 200, 0.17);
+
+  /* max-width: 483px; */
+  height: auto;
+  padding: 5.6rem;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 20px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.top-section h3 {
+  font-size: 2.4rem;
+}
+
+.top-section h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+
+  margin-block: 2.4rem;
+}
+
+.top-section span {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.top-section span p {
+  display: flex;
+
+  align-items: center;
+  margin: 0;
+}
+
+.top-section span p span {
+  margin: 0;
+}
+
+.top-section span .review-num {
+  font-weight: 900;
+}
+.top-section span .reviews {
+  color: #747988;
+  position: relative;
+}
+
+.top-section span .reviews::before {
+  background-color: rgba(116, 121, 136, 0.5);
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.deliver-pick-store {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  /* gap: 1rem; */
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #f5f6ff;
+  width: 100%;
+}
+
+.deliver-pick-store p {
+  color: #747988;
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.deliver-pick-store p:hover {
+  color: #172039;
+  background-color: white;
+  border-radius: 12px;
+  font-weight: 700;
+  box-shadow: 0 5px 5px 0 rgba(0, 44, 168, 0.06);
+}
+
+.input-section {
+  margin-block: 2.4rem;
+  width: 100%;
+}
+
+.input-section input {
+  width: 100%;
+  border: none;
+  border: 1px solid #d7d9e8;
+  padding: 1.7rem;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  background: url(./search-icon.png) no-repeat scroll 10px 10px;
+  padding-left: 60px;
+  font-weight: 600;
+}
+
+.middle-section,
+.items {
+  padding: 1rem;
+  border: 1px solid #d7d9e8;
+  border-radius: 12px;
+}
+
+.destination {
+  font-size: 1.8rem;
+}
+
+.duration {
+  font-size: 1.6rem;
+  margin-block: 0.5rem;
+}
+
+.close-open {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #747988;
+}
+
+.middle-section .btn-add-to-cart {
+  border: none;
+  background-color: #4571f5;
+  font-size: 1.8rem;
+  color: white;
+  padding: 1.6rem;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.bottom-section {
+  margin-top: 2.4rem;
+}
+.bottom-section h3 {
+  font-size: 1.4rem;
+  color: #747988;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.items {
+  margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 2rem;
+  }
+
+  .top-section h3{
+    font-size: 2rem;
+  }
+}
